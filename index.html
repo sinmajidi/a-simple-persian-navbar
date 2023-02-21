@@ -3,15 +3,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Afra IOT</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <title>موضوع شما</title>
 </head>
 <body>
     <header class="global-header">
         <div class="header-row">
             <div class="globa-logo">
-                <a href="#">logo</a>
+                <a href="#"><img src="./assets/logo/logo.png"></a>
             </div>
             <nav class="nav-menu">
                 <!-- <a href='#'>صفحه اول</a>
@@ -19,14 +20,56 @@
                 <a href='#'>درباره ما</a>
                 <a href='#'>تماس با ما</a> -->
                 <ul>
+                    <div class="sub-nav">
+                        <div class="sub-nav-col left">
+                            <a href="#" class="sub-nav-box" id="box1">
+                                <div class="icon-background" id="icon-1">
+                                    <i class="fab fa-sellsy icon"></i>
+                                </div>
+                                <h4>محصول شماره 1</h4>
+                                <p>توضیحات....</p>
+                            </a>
+                            <a href="#" class="sub-nav-box" id="box2">
+                                <div class="icon-background" id="icon-2">
+                                    <i class="fab fa-sellsy icon"></i>
+                                </div>
+                                <h4>محصول شماره 2</h4>
+                                <p>توضیحات....</p>
+                            </a>
+                        </div>
+                        <div class="sub-nav-col right">
+                            <a href="#" class="sub-nav-box" id="box3">
+                                <div class="icon-background" id="icon-3">
+                                    <i class="fab fa-sellsy icon"></i>
+                                </div>
+                                <h4>محصول شماره 3</h4>
+                                <p>توضیحات....</p>
+                            </a>
+                            <a href="#" class="sub-nav-box" id="box4">
+                                <div class="icon-background" id="icon-4">
+                                    <i class="fab fa-sellsy icon"></i>
+                                </div>
+                                <h4>محصول شماره 4</h4>
+                                <p>توضیحات....</p>
+                            </a>
+                        </div>
+                    </div>
                     <li><a href="#">صفحه اول</a></li>
-                    <li><a href="#">محصولات</a></li>
+                    <li id='products'><a href="#">محصولات</a></li>
                     <li><a href="#">درباره ما</a></li>
                     <li><a href="#">تماس با ما</a></li>
                 </ul>
             </nav>
+            <div class="header_button_link">
+                <i class='fas fa-user-lock'></i>
+                <span>ورود و ثبت نام</span>
+
+            </div>
         </div>
     </header>
     
 </body>
+<script src="./assets/js/nav_animation.js"></script>
 </html>
+
+                                                
