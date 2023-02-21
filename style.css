@@ -1,0 +1,72 @@
+@font-face{
+    font-family: 'IRANSans';
+    src : local('IRANSans'),url(./IRANSans.ttf) format('truetype')
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:IRANSans ;
+    direction: rtl;
+}
+.global-header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 100;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.5);
+}
+.header-row{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 0;
+    max-width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+/* .nav-menu a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 21px;
+    display: inline-block;
+    margin-right: 28px;
+    padding-bottom: 22px;
+    position: relative;
+    color: #252222;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+} */
+.global-logo{
+    max-width: 200px;
+}
+.global-logo img{
+    max-width: 200px;
+}
+.nav-menu{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 22px;
+    margin-left: 25px;
+}
+.header-row ul {
+    font-size: 13px;
+    /* line-height: 21px; */
+}
+.header-row ul li{
+    display: inline-block;
+    margin-right: 28px;
+    padding-bottom: 22px;
+    position: relative;
+}
+.header-row ul li a{
+   font-size: 14px;
+   /* text-transform: uppercase; */
+   /* letter-spacing: 0.5px; */
+   text-decoration: none;
+   color: #252222;
+   font-weight: bold;
+}
